@@ -29,16 +29,18 @@
     [5, 7]
   ],
   "tel_sources": [
+    [3, 3]
   ],
   "tel_dests": [
+    [8,7]
   ],
 
   "max_iterations": 1000,
   "threshold_difference": 0.00001,
 
 
-  "reward_for_each_step": -0.05,
-  "reward_for_hitting_wall": -0.0,
+  "reward_for_each_step": -0.1,
+  "reward_for_hitting_wall": -0.5,
   "reward_for_reaching_goal": 10.0,
   "reward_for_falling_in_pit": -5.0,
   "reward_for_teleporting":-0.00,
